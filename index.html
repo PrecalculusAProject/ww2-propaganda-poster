@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWII Propaganda Poster: Germany</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: radial-gradient(circle, #8b0000, #300000);
+            font-family: 'Times New Roman', serif; 
+        }
+        .poster {
+            width: 600px;
+            height: 800px;
+            background: #d00;
+            color: #fff;
+            text-align: center;
+            border: 12px solid #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+            margin-top: 20px;
+        }
+        .symbol {
+            width: 150px;
+            height: 150px;
+            background: #fff;
+            border-radius: 50%;
+            margin: 20px auto;
+            border: 8px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .symbol img {
+            width: 100px;
+            filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+        }
+        .message {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 30px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            line-height: 1.2;
+        }
+        .slogan {
+            font-size: 28px;
+            font-style: italic;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        .footer {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .annotation {
+            position: absolute;
+            bottom: -200px;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            color: #000;
+            padding: 20px;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="title">"Ein Volk, Ein Reich, Ein Führer!"</div>
+        <div class="symbol">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/National_Socialist_swastika.svg" alt="Swastika Symbol">
+        </div>
+        <div class="message">"Deutschland muss leben! Unsere Feinde werden fallen!"</div>
+        <div class="slogan">"Sieg durch Einheit und Stärke!"</div>
+        <div class="footer">Unterstützt die Wehrmacht! Kämpft für unser Vaterland!</div>
+    </div>
+</body>
+</html>
